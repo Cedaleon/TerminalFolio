@@ -9,7 +9,7 @@ TerminalFolio es una terminal interactiva moderna inspirada en la interfaz de co
 ## Características
 
 - Interfaz de usuario estilizada con colores personalizados.
-- Línea de comandos adaptable que mantiene el estilo de colores al ejecutar comandos.
+- Línea de comandos adaptable que mantiene el estilo de colores.
 - Soporte para comandos predefinidos y personalizables.
 - Historial de comandos navegable con las teclas de flecha.
 - Diseño de terminal basado en HTML y CSS con interacción mediante JavaScript.
