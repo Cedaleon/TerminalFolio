@@ -24,4 +24,4 @@ TerminalFolio es una terminal interactiva moderna inspirada en la interfaz de co
 
 1. Clona este repositorio a tu máquina local:
    ```bash
-   git clone https://github.com/[tu-usuario]/[nombre-del-repositorio].git
+   git clone https://github.com/Cedaleon/TerminalFolio.git
