@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerminalFolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <div id="terminal">
+        <div id="terminal-header">
+            <div class="terminal-button"></div>
+            <div class="terminal-button"></div>
+            <div class="terminal-button"></div>
+        </div>
+        <div id="terminal-body">
+            <div id="output"></div>
+            <div id="input-line">
+                <div class="prompt">
+                    <!-- Prompt con caracteres coloreados -->
+                    <div class="prompt-line1">
+                        <span class="prompt-symbol">┌──(</span>root💀folio<span class="prompt-symbol">)-[~]</span>
+                    </div>
+                    <div class="prompt-line2">
+                        <span class="prompt-symbol">└─#</span> <input id="command-input" type="text" autocomplete="off"
+                            autofocus>
+                    </div>
+                </div>
+                <input type="text" id="command-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <div id="graphic-overlay"></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <canvas id="skills-chart" width="400" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
