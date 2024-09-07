@@ -1,4 +1,4 @@
-
+![terminal-folio](https://github.com/user-attachments/assets/c7954ef8-a387-4692-8c7b-95b1ae5f948e)
 
 # TerminalFolio
 
